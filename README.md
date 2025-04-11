@@ -47,7 +47,7 @@ pip install -r requirements.txt
 Ensure your SQLite database file (e.g., data.db) or CSV files are available. The path should be correctly referenced in data_loader.py. 
 ## 5. Run the Application 
 ```
-streamlit run main.py
+streamlit run main.py 
 ```
 The program will: - Load the data - Analyze the content - Generate meaningful, natural-language insights - (Optionally) Display visualizations 
 ## 🛠 Customization 
