@@ -8,6 +8,7 @@ Cross-domain insight linking
 Query-driven story augmentation
 Modular and extensible architecture 
 # 📁 Project Structure 
+```
 Cognitive-Data-Storyteller/
 ├── data_loader.py # Handles data import from databases or CSVs
 ├── analysis.py # Performs data analysis and generates insights
@@ -18,6 +19,7 @@ Cognitive-Data-Storyteller/
 ├── main.py # Entry point for running the software
 ├── requirements.txt # List of required Python packages
 ├── README.md # Project overview and instructions
+```
 
 ## 🚀 How to Run 
 ### 1. Clone the Repository 
@@ -51,9 +53,12 @@ streamlit run main.py
 ```
 The program will: - Load the data - Analyze the content - Generate meaningful, natural-language insights - (Optionally) Display visualizations 
 ## 🛠 Customization 
-Data Source: Modify data_loader.py to change data inputs.
-Narrative Style: Update narrative_generator.py for tone or format.
-Insight Rules: Adapt analysis.py or insight_linker.py to refine insight logic. 
+### Data Source
+Modify data_loader.py to change data inputs.
+### Narrative Style
+Update narrative_generator.py for tone or format.
+### Insight Rules
+Adapt analysis.py or insight_linker.py to refine insight logic. 
 ## 🧹 Recommended .gitignore 
 __pycache__/
 *.pyc
